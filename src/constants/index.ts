@@ -1,5 +1,5 @@
-export const liquidContractAddress: string = '0x0912422b35dC57a50fd8f58d3B4104Bad5176fb4'
-export const passContractAddress: string = '0x77CAba7aF139E2acb76111Fab426eCe5Dfff8E08'
+export const liquidContractAddress: string = '0x960EBe11745d323C0E79B161cc7c9fe37dDFd00A'
+export const passContractAddress: string = '0xf601FfEA6A76E83921750361E613d82286c4Ad9B'
 
 export interface ChainConfig {
   name: string;
@@ -12,11 +12,11 @@ export interface ChainConfig {
 }
 
 export const chainConfig: ChainConfig = {
-  name: "Goerli Testnet",
-  chain_id: "5",
-  chain_id_hex: "0x5",
-  write_rpc: "https://goerli.infura.io/v3/33f72aa1b4f441bc8f3a244da53533b4",
-  read_rpc: "https://goerli.infura.io/v3/33f72aa1b4f441bc8f3a244da53533b4",
+  name: "Cronos Mainnet",
+  chain_id: "25",
+  chain_id_hex: "0x19",
+  write_rpc: "https://mainnet.cronoslabs.com/v1/55e37d8975113ae7a44603ef8ce460aa",
+  read_rpc: "https://mainnet.cronoslabs.com/v1/55e37d8975113ae7a44603ef8ce460aa",
   symbol: "GETH",
-  explorer: "https://goerli.etherscan.io/",
+  explorer: "https://cronoscan.com/",
 }
